@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>세이퍼(누리잉크) 원격제어</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="./style.css" rel="stylesheet">
+<style>
+body { height:100%; background-color:#efefef; font-family: 'Noto Sans KR', sans-serif; }
+section { position:absolute; top:50%; left:50%; margin-top:-350px; margin-left:-567px; width:1134px; height:700px; background:#fff; padding:0px; box-shadow:3px 5px 7px #cecece; display:flex; flex-direction:row; }
+section.cjk { margin-top:-350px; height:700px; } 
+section > div:first-child { width:435px; }
+section > div:last-child { width:699px; padding:50px 50px; text-align:center; }
+section > div:last-child > div:first-child { text-align:right; }
+section > div:last-child > div:last-child { padding:20px 0px; } 
+h1 { text-align: center; font-weight:500; font-size:35px; margin-bottom:50px; color:#febd44; }
+h2 { font-weight:400; font-size:30px; margin-bottom:10px; color:#b2bec3; margin-top:30px; }
+p { color:#8c8c8c; font-size:16px; font-weight:400; text-align:justify; word-break:keep-all; }
+.dropdown-center button { color:#8c8c8c; border-color:#fff!important; }
+a.dropdown-item { color:#8c8c8c; }
+.address { display:flex; flex-direction:row; align-items:center; margin-top:30px; }
+.address div:first-child { width:75%; height:46px; }
+.address div input { width:100%; border:1px solid #959595; border-radius:5px; padding:10px 5px; }
+.address div input::placeholder { padding-left:0px; font-family: 'Noto Sans KR', sans-serif; font-size:15px; color:#a5a5a5; }
+.address div:last-child { margin-left:20px; height:46px; width:25%; text-align:left; }
+.address div:last-child input[type=checkbox] { padding:0px; width:15px; height:15px; margin-top:15px; }
+.address div:last-child span { vertical-align:2px; color:#4899cd; }
+.number-list { display:flex; flex-direction:row;margin-top: 50px; }
+.number-list a {
+     display:flex; justify-content: center; align-items:  center; width:100px; height:100px; border:1px solid #febd44; margin:5px; border-radius:5px; text-decoration:none; line-height:100px; font-family: "Roboto", sans-serif; font-size:50px; font-weight:800; color:#fff; background:#fdcb6e; }
+.number-list a:hover { background:#fff; color:#e17055; }
+.small-btn { width:100%; margin-top:30px; text-align:left; }
+.small-btn a { margin:0px 10px; font-size:12px; font-weight:400; color:#8c8c8c; text-decoration:none; }
+.small-btn a:hover { color:#616060; }
+
+
+</style>
+</head>
+<body>
+<section>
+	<div><img src="screens/callwoman.jpg"></div>
+	<div>
+		
+		<div>
+			
+			<h1><strong>PC 원격지원서비스</strong></h1>
+			<p>고객님 PC를 원격에서 접속하여 화면을 보면서 키보드와 마우스를 제어하겠습니다. 동의하시면 안내받으신 아래 숫자를 클릭하셔서 프로그램을 설치하시고 생성된 4자리 숫자를 상대방에게 알려주세요</p>
+			<form> 
+				<div class="number-list">
+					
+					<a href="safer7-0.exe" title="일반 모드로 원격 요청">1</a>
+					<a href="safer7-1.exe" title="IP모드로 원격 요청">2</a>
+					<a href="121.177.241.238-0.exe" title="IP모드로 원격 요청">3</a>
+                    <a href="https://786.co.kr/SeetrolAsk.exe" title="요청고객용 SeetrolAsk 설치">4</a>
+				    <a href="https://786.co.kr/SeetrolAsk.exe" title="요청고객용 SeetrolAsk 설치">5</a>
+				</div>
+			</form>
+
+			<div class="small-btn">
+				<div>
+                   	<a href="https://www.786.co.kr/ViewSetup.exe" title="상담원용 Viewer 설치" class="fileButton">ViewSetup.exe</a>
+					
+				</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script src="./Seetrol MY_files/jquery.js"></script>
+
+
+</body>
+</html>
