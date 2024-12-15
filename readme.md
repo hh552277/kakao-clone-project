@@ -1,3 +1,3 @@
-# kokoa clone 2024 update
+# kakao-clone-project update
 
 Html & css are so much fun!
